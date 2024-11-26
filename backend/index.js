@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use('/', (req, res) => {
-    res.send('Hello')
+    res.send('Hello 1')
 })
 
 app.use('/api', router)
