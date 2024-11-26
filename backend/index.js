@@ -16,6 +16,10 @@ app.use(cors({
 app.use(express.json())
 app.use(cookieParser())
 
+app.use('/', (req, res) => {
+    res.send('Hello')
+})
+
 app.use('/api', router)
 
 app.listen(8080, () => {
