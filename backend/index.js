@@ -40,7 +40,7 @@ connectDB();
 // Define allowed origins
 const allowedOrigins = [
     "http://localhost:3000", // Local development front-end
-    "https://e-commerce-web-2tmy.vercel.app" // Deployed front-end
+    "https://e-commerce-web-cpwv.vercel.app" // Deployed front-end
 ];
 
 // Set up CORS
