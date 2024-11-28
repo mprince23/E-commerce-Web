@@ -1,4 +1,4 @@
-const url = 'http://localhost:8080'
+const url = 'https://e-commerce-web-1vot.onrender.com'
 
 const Api = {
     signUp: {
