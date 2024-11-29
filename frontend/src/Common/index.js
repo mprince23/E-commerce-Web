@@ -1,4 +1,4 @@
-const url = 'https://e-commerce-web-1vot.onrender.com'
+const url = process.env.REACT_APP_BACKEND_URL
 
 const Api = {
     signUp: {

@@ -33,7 +33,7 @@ const SignUp = () => {
 
             if (dataApi.success) {
                 toast.success(dataApi.message);
-                navigate("/");
+                navigate("/Log-In");
             } else if (dataApi.error) {
                 toast.error(dataApi.message);
             }
